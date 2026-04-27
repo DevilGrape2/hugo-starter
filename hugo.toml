@@ -1,6 +1,6 @@
-baseURL = '/'
-languageCode = 'en-us'
-title = 'Hugo Template'
+baseURL = '/'          # 网站域名（部署时必须正确设置）
+languageCode = 'zh-CN'  # 语言代码（如en-US、ja-JP）
+title = '笔记记录'
 theme = 'ananke'
 
 # Theme parameters
