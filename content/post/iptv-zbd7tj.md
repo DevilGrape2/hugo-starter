@@ -3,7 +3,7 @@ title: IPTV
 slug: iptv-zbd7tj
 url: /post/iptv-zbd7tj.html
 date: '2026-04-03 23:10:15+08:00'
-lastmod: '2026-04-27 23:40:14+08:00'
+lastmod: '2026-04-27 23:41:49+08:00'
 toc: true
 isCJKLanguage: true
 ---
