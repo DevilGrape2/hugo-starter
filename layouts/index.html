@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+  {{ with site.Params.featured_image }}
+    <!-- 强制清除任何父容器背景，并保证图片占满宽度 -->
+    <div style="background: none !important; font-size: 0;">
+      <img src="{{ . }}" alt="封面图" class="w-100" style="display: block; max-height: 400px; object-fit: cover; margin: 0; border: 0;">
+    </div>
+  {{ end }}
+
+  <!-- 文章列表部分保持不变，但同样把顶部间距清零 -->
+  <article class="cf ph3 ph5-l pv0 pv4-l mt0 f4 center measure-wide lh-copy mid-gray" style="padding-top:0; margin-top:0;">
+    {{ .Content }}
+  </article>
+  {{ $mainSections := site.Params.mainSections | default (slice "post") }}
+  {{ $paginator := .Paginate (where site.RegularPages "Type" "in" $mainSections) }}
+  {{ range $paginator.Pages }}
+    {{ partial "summary.html" . }}
+  {{ end }}
+  {{ partial "pagination.html" . }}
+
+{{ end }}
