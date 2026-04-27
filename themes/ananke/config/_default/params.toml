@@ -11,7 +11,7 @@ new_window_icon = false # show a little "opens in new window" icon next to the l
   # "facebook",
   # "bluesky",
    #"linkedin"
- ]
+ #]
 #
 [ananke.social.share]
 icons = true # show icons for each share link
