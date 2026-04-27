@@ -3,7 +3,7 @@ title: IPTV
 slug: iptv-zbd7tj
 url: /post/iptv-zbd7tj.html
 date: '2026-04-03 23:10:15+08:00'
-lastmod: '2026-04-27 23:38:02+08:00'
+lastmod: '2026-04-27 23:40:14+08:00'
 toc: true
 isCJKLanguage: true
 ---
@@ -18,9 +18,7 @@ isCJKLanguage: true
 
 IGMP设备的IPTV播放链接：http://igmp.vip:2332/hen/5211t1.m3u
 
-```html
 <!--more-->
-```
 
 ## 1.处理过的数据
 
