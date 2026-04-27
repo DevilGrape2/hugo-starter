@@ -6,7 +6,7 @@ theme = 'ananke'        # 指定使用的主题名称（需放在themes目录下
 # Theme parameters
 [params]
   author = "mengfeis"                     # 作者名
-  featured_image = "https://vip.123pan.cn/1815989482/ymjew503t0l000ddqgbs6uoprrb1k5m9DIYPAIr1BIF1DpxPDwF2DY==.png"
+  featured_image = "/images/gohugo-default-sample-hero-image.jpg"
   # avatar = "/images/avatar.jpg"       # 头像路径（图片放在static/images/下）
   site_logo = ""
   description = "分享技术与生活的博客"  # 网站描述（用于SEO）
