@@ -8,10 +8,6 @@ toc: true
 isCJKLanguage: true
 ---
 
-
-
-![image](https://b2.technur.eu.org/H4h42uO3C6I.jpg)
-
 # 测试
 
 测试
