@@ -18,9 +18,9 @@ theme = 'ananke'
     url = "/"
     weight = 1
   [[menu.main]]
-    identifier = "get-start"
+    identifier = "post"
     name = "Get Started"
-    url = "/get-start/"
+    url = "/post/"
     weight = 2
   [[menu.main]]
     identifier = "installation"
