@@ -15,18 +15,9 @@ theme = 'ananke'
   [[menu.main]]
     identifier = "home"
     name = "Home"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    identifier = "post"
-    name = "Get Started"
     url = "/post/"
-    weight = 2
-  [[menu.main]]
-    identifier = "installation"
-    name = "Installation"
-    url = "/get-start/installation/"
-    weight = 3
+    weight = 1
+
 
 # Outputs configuration
 [outputs]
