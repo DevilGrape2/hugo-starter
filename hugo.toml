@@ -17,7 +17,7 @@ theme = 'ananke'        # 指定使用的主题名称（需放在themes目录下
     { name = "知乎", url = "https://zhihu.com/people/your-name" }
   ]
   
-  body_classes = "avenir bg-near-white"
+ # body_classes = "avenir bg-near-white"
 
 # Menu Configuration
 [menu]
